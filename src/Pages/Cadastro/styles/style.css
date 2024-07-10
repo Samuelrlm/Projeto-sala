@@ -1,0 +1,101 @@
+.card {
+  width: 480px;
+  background-color: #fff;
+  padding: 28px 48px;
+  border-radius: 12px;
+}
+
+.card span {
+  color: #9ca3af;
+  margin: 4px 0 20px;
+  display: block;
+}
+
+.card .input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+
+  border-bottom: 2px solid #e5e7eb;
+
+  & + & {
+    margin-top: 14px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    width: 12px;
+    margin-right: 12px;
+  }
+}
+
+.card svg {
+  font-size: 22px;
+}
+
+
+.card input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+
+}
+
+.card .conditions-password {
+  margin-top: 12px;
+}
+
+.card li {
+  margin-left: 3px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+
+  svg {
+    font-size: 12px;
+  }
+}
+
+.card a  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 140px;
+  background: #0d9488;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 12px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  span {
+    margin: 0;
+
+    svg {
+      margin-top: 2px;
+      color: #fff;
+    }
+  }
+}
+
+.card .back {
+  margin-top: 14px;
+  text-align: center;
+  color: #9ca3af;
+  
+}
+
+.card .backLogin {
+  background: none;
+  color: #0d9488;
+  display: inline;
+  padding: 0;
+  
+}
